@@ -16,3 +16,22 @@ c:\users\sam\documents\visual studio 2017\Projects\ViewModels\ViewModels\obj\Deb
 c:\users\sam\documents\visual studio 2017\Projects\ViewModels\ViewModels\obj\Debug\ViewModels.csproj.GenerateResource.Cache
 c:\users\sam\documents\visual studio 2017\Projects\ViewModels\ViewModels\obj\Debug\ViewModels.exe
 c:\users\sam\documents\visual studio 2017\Projects\ViewModels\ViewModels\obj\Debug\ViewModels.pdb
+C:\Users\ouarz\Documents\code\MVVM_user_control_binding\ViewModels\bin\Debug\ViewModels.exe.config
+C:\Users\ouarz\Documents\code\MVVM_user_control_binding\ViewModels\bin\Debug\ViewModels.exe
+C:\Users\ouarz\Documents\code\MVVM_user_control_binding\ViewModels\bin\Debug\ViewModels.pdb
+C:\Users\ouarz\Documents\code\MVVM_user_control_binding\ViewModels\obj\Debug\ViewModels.csprojResolveAssemblyReference.cache
+C:\Users\ouarz\Documents\code\MVVM_user_control_binding\ViewModels\obj\Debug\MainWindow.g.cs
+C:\Users\ouarz\Documents\code\MVVM_user_control_binding\ViewModels\obj\Debug\View\Customers.g.cs
+C:\Users\ouarz\Documents\code\MVVM_user_control_binding\ViewModels\obj\Debug\View\CustomerSettings.g.cs
+C:\Users\ouarz\Documents\code\MVVM_user_control_binding\ViewModels\obj\Debug\App.g.cs
+C:\Users\ouarz\Documents\code\MVVM_user_control_binding\ViewModels\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ouarz\Documents\code\MVVM_user_control_binding\ViewModels\obj\Debug\ViewModels_MarkupCompile.cache
+C:\Users\ouarz\Documents\code\MVVM_user_control_binding\ViewModels\obj\Debug\ViewModels_MarkupCompile.lref
+C:\Users\ouarz\Documents\code\MVVM_user_control_binding\ViewModels\obj\Debug\MainWindow.baml
+C:\Users\ouarz\Documents\code\MVVM_user_control_binding\ViewModels\obj\Debug\View\Customers.baml
+C:\Users\ouarz\Documents\code\MVVM_user_control_binding\ViewModels\obj\Debug\View\CustomerSettings.baml
+C:\Users\ouarz\Documents\code\MVVM_user_control_binding\ViewModels\obj\Debug\ViewModels.g.resources
+C:\Users\ouarz\Documents\code\MVVM_user_control_binding\ViewModels\obj\Debug\ViewModels.Properties.Resources.resources
+C:\Users\ouarz\Documents\code\MVVM_user_control_binding\ViewModels\obj\Debug\ViewModels.csproj.GenerateResource.Cache
+C:\Users\ouarz\Documents\code\MVVM_user_control_binding\ViewModels\obj\Debug\ViewModels.exe
+C:\Users\ouarz\Documents\code\MVVM_user_control_binding\ViewModels\obj\Debug\ViewModels.pdb

@@ -12,8 +12,7 @@ namespace ViewModels.ViewModel
     class MainVM : ObservableObject
     {
         private readonly string _title = "CUSTOMERS";
-        private  CustomerVM _customerVM;
-        private CustomerSettingsVM _customerSettingsVM;
+        private  CustomersVM _customerVM;
      
 
         public string Title { get { return _title; } }
@@ -21,21 +20,15 @@ namespace ViewModels.ViewModel
 
         public MainVM()
         {
-            Customer = new CustomerVM();
-            CustomerSettings = new CustomerSettingsVM();
+            Customer = new CustomersVM();
             SelectedMain = Customer;
-            SelectedSettings = CustomerSettings;
+            SelectedSettings = Customer.SelectedCustomer;
         }
 
-        public CustomerVM Customer
+        public CustomersVM Customer
         {
             get { return _customerVM; }
             private set { _customerVM = value; }
-        }
-        public CustomerSettingsVM CustomerSettings
-        {
-            get { return _customerSettingsVM; }
-            private set { _customerSettingsVM = value; }
         }
 
     

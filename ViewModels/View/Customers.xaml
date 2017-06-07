@@ -7,23 +7,23 @@
              xmlns:local="clr-namespace:ViewModels.View"
              mc:Ignorable="d"  
              xmlns:fa="http://schemas.fontawesome.io/icons/"
-             d:DataContext="{d:DesignInstance ViewModel:CustomerVM}">
+             d:DataContext="{d:DesignInstance ViewModel:CustomersVM}">
 
    
     <Grid>
-        <TextBox Tag="Search Customers" x:Name="searchTextBox" Text="{Binding SelectedCustomer.name, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" HorizontalAlignment="Left" Height="40" Margin="10,9,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="340" Padding="5,6,0,0" FontSize="16"/>
-        <Label Content="{Binding Path=SelectedCustomer.name}" Margin="430,0,436,263" />
+        <TextBox Tag="Search Customers" x:Name="searchTextBox" Text="{Binding SelectedCustomer.Name, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" HorizontalAlignment="Left" Height="40" Margin="10,9,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="340" Padding="5,6,0,0" FontSize="16"/>
+        <Label Content="{Binding Path=SelectedCustomer.Name}" Margin="430,0,436,263" />
         <DataGrid x:Name="customerListBox" SelectedItem="{Binding SelectedCustomer, UpdateSourceTrigger=PropertyChanged}" SelectionMode="Single" IsReadOnly="True"  ItemsSource="{Binding Customers}"  Margin="10,57,10,10"  AlternationCount="2"  BorderThickness="1" SnapsToDevicePixels="True"  AutoGenerateColumns="False">
             <DataGrid.Columns>
-                <DataGridTextColumn Binding="{Binding id}" Header="Id"/>
-                <DataGridTextColumn Binding="{Binding name}"  Header="Name"/>
-                <DataGridTextColumn Binding="{Binding address1}"  Header="Address"/>
-                <DataGridTextColumn Binding="{Binding address2}"  Header="Address 2"/>
-                <DataGridTextColumn Binding="{Binding town}"  Header="Town"/>
-                <DataGridTextColumn Binding="{Binding county}"  Header="County"/>
-                <DataGridTextColumn Binding="{Binding postcode}"  Header="Postcode"/>
-                <DataGridTextColumn Binding="{Binding phone}"  Header="Phone"/>
-                <DataGridTextColumn Binding="{Binding email}" Header="Email"/>
+                <DataGridTextColumn Binding="{Binding Id}" Header="Id"/>
+                <DataGridTextColumn Binding="{Binding Name}"  Header="Name"/>
+                <DataGridTextColumn Binding="{Binding Address1}"  Header="Address"/>
+                <DataGridTextColumn Binding="{Binding Address2}"  Header="Address 2"/>
+                <DataGridTextColumn Binding="{Binding Town}"  Header="Town"/>
+                <DataGridTextColumn Binding="{Binding County}"  Header="County"/>
+                <DataGridTextColumn Binding="{Binding Postcode}"  Header="Postcode"/>
+                <DataGridTextColumn Binding="{Binding Phone}"  Header="Phone"/>
+                <DataGridTextColumn Binding="{Binding Email}" Header="Email"/>
             </DataGrid.Columns>
         </DataGrid>
        

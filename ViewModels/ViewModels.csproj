@@ -55,8 +55,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Factory\DatabaseMaster.cs" />
-    <Compile Include="ViewModel\CustomerSettingsVM.cs" />
-    <Compile Include="ViewModel\CustomerVM.cs" />
+    <Compile Include="ViewModel\CustomersVM.cs" />
     <Compile Include="ViewModel\DelegateCommand.cs" />
     <Compile Include="ViewModel\MainVM.cs" />
     <Compile Include="ViewModel\ObservableObject.cs" />
