@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace ViewModels.View
 {
     /// <summary>
-    /// Interaction logic for CustomerSettings.xaml
+    /// Interaction logic for CustomerView.xaml
     /// </summary>
-    public partial class CustomerSettings : UserControl
+    public partial class CustomerView : UserControl
     {
-        public CustomerSettings()
+        public CustomerView()
         {
             InitializeComponent();
             

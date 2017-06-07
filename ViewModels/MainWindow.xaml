@@ -16,9 +16,12 @@
         <DataTemplate  DataType="{x:Type VM:CustomersVM}">
             <View:Customers/>
         </DataTemplate>
+        <DataTemplate  DataType="{x:Type VM:CustomerVm}">
+            <View:CustomerView/>
+        </DataTemplate>
     </Window.Resources>
     <Grid>
         <ContentControl Content="{Binding SelectedMain}"  Margin="0,53,296,10" />
-        <View:CustomerSettings DataContext="{Binding SelectedMain}"  Margin="563,53,10,45"/>
+        <ContentControl Content="{Binding SelectedMain.SelectedObject}"  Margin="563,53,10,45"/>
     </Grid>
 </Window>

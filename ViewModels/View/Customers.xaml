@@ -6,7 +6,6 @@
              xmlns:ViewModel="clr-namespace:ViewModels.ViewModel"
              xmlns:local="clr-namespace:ViewModels.View"
              mc:Ignorable="d"  
-             xmlns:fa="http://schemas.fontawesome.io/icons/"
              d:DataContext="{d:DesignInstance ViewModel:CustomersVM}">
 
    

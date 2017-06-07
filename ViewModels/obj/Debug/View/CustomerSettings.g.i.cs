@@ -39,7 +39,7 @@ namespace ViewModels.View {
     /// <summary>
     /// CustomerSettings
     /// </summary>
-    public partial class CustomerSettings : System.Windows.Controls.UserControl, System.Windows.Markup.IComponentConnector {
+    public partial class CustomerView : System.Windows.Controls.UserControl, System.Windows.Markup.IComponentConnector {
         
         
         #line 11 "..\..\..\View\CustomerSettings.xaml"

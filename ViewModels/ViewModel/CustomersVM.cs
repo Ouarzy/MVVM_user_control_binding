@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +11,15 @@ using ViewModels.Factory;
 
 namespace ViewModels.ViewModel
 {
-    class CustomersVM : ObservableObject
+    abstract class VmWithSelectedObject : ObservableObject
+    {
+        public abstract INotifyPropertyChanged SelectedObject {
+            get;
+            set;
+        }
+    }
+
+    class CustomersVM : VmWithSelectedObject
     {
         private string _searchText;
         private CustomerVm _selectedCustomer;
@@ -19,7 +28,7 @@ namespace ViewModels.ViewModel
 
         public CustomersVM()
         {
-
+            SelectedCustomer = _customers.First();
         }
 
         public string SearchText
@@ -34,11 +43,15 @@ namespace ViewModels.ViewModel
 
         public CustomerVm SelectedCustomer
         {
-            get { return _selectedCustomer; }
+            get
+            {
+                return _selectedCustomer;
+            }
             set
             {
                 _selectedCustomer = value;
-                RaisePropertyChangedEvent("SelectedCustomer");
+                RaisePropertyChangedEvent();
+                RaisePropertyChangedEvent("SelectedObject");
             }
         }
 
@@ -58,6 +71,16 @@ namespace ViewModels.ViewModel
         {
 
 
+        }
+
+        public override INotifyPropertyChanged SelectedObject
+        {
+            get => SelectedCustomer;
+            set
+            {
+                SelectedCustomer = (CustomerVm) value;
+                RaisePropertyChangedEvent();
+            }
         }
     }
 

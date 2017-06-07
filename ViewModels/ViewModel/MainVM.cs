@@ -22,7 +22,6 @@ namespace ViewModels.ViewModel
         {
             Customer = new CustomersVM();
             SelectedMain = Customer;
-            SelectedSettings = Customer.SelectedCustomer;
         }
 
         public CustomersVM Customer
@@ -33,8 +32,8 @@ namespace ViewModels.ViewModel
 
     
 
-        public INotifyPropertyChanged _selectedMain;
-        public INotifyPropertyChanged SelectedMain
+        public VmWithSelectedObject _selectedMain;
+        public VmWithSelectedObject SelectedMain
         {
             get { return _selectedMain; }
             set
@@ -42,20 +41,7 @@ namespace ViewModels.ViewModel
                 if (value != _selectedMain)
                 {
                     _selectedMain = value;
-                    RaisePropertyChangedEvent("SelectedMain");
-                }
-            }
-        }
-        public INotifyPropertyChanged _selectedSettings;
-        public INotifyPropertyChanged SelectedSettings
-        {
-            get { return _selectedSettings; }
-            set
-            {
-                if (value != _selectedSettings)
-                {
-                    _selectedSettings = value;
-                    RaisePropertyChangedEvent("SelectedSettings");
+                    RaisePropertyChangedEvent();
                 }
             }
         }
@@ -71,7 +57,6 @@ namespace ViewModels.ViewModel
             {
                 case "0":
                     SelectedMain = Customer;
-                    SelectedSettings = Customer;
                     break;
                 case "1":
                    

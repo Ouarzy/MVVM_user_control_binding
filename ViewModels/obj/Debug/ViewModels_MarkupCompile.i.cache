@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\ouarz\Documents\code\MVVM_user_control_binding\ViewModels\App.xaml
-3357570136
+3704830148
 
-17308119114
+17-401014053
 13738642453
-MainWindow.xaml;View\Customers.xaml;View\CustomerSettings.xaml;
+MainWindow.xaml;View\Customers.xaml;View\CustomerView.xaml;
 
-False
+True
 
